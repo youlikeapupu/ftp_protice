@@ -1,5 +1,5 @@
 <?php
-	function example()
+    function example()
     {
     	$filename = '/test/upload_test.php';
     	$target = '/uploadTest';
@@ -15,7 +15,7 @@
     }
 
 
-	function ftp_info()
+    function ftp_info()
     {
         $f = new \stdclass();
         $f->host = 'test.com.tw';
